@@ -1,4 +1,3 @@
-# Scribe
+# :scroll: Scribe
 
-**TODO: Add description**
-
+> A boilerplate Elixir umbrella application that includes Phoenix and Ecto
