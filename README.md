@@ -1,0 +1,4 @@
+# Scribe
+
+**TODO: Add description**
+
