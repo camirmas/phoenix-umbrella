@@ -1,6 +1,6 @@
-defmodule Db do
+defmodule DB do
   @moduledoc """
-  Documentation for Db.
+  Documentation for DB.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Db do
 
   ## Examples
 
-      iex> Db.hello
+      iex> DB.hello
       :world
 
   """

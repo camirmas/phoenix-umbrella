@@ -1,4 +1,4 @@
-defmodule Db.Mixfile do
+defmodule DB.Mixfile do
   use Mix.Project
 
   def project do
@@ -19,8 +19,8 @@ defmodule Db.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
-    [extra_applications: [:logger],
-     mod: {Db.Application, []}]
+    [extra_applications: [:logger, :ecto, :postgrex],
+     mod: {DB.Application, []}]
   end
 
   # Dependencies can be Hex packages:
@@ -37,6 +37,9 @@ defmodule Db.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:ecto, "~> 2.0"},
+      {:postgrex, "~> 0.11"}
+    ]
   end
 end
