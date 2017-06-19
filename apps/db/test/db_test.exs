@@ -1,5 +1,5 @@
 defmodule DBTest do
-  use ExUnit.Case
+  use DB.ModelCase
   doctest DB
 
   test "the truth" do
